@@ -51,9 +51,9 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -64,9 +64,9 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -174,25 +174,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- three
+	- uniFEA4_uniFBBD
 
-	- uniFDFD.01
+	- dotamiddlear
 
-	- uni06BA.medi
+	- _986
 
-	- uni06A1.medi
+	- guillemotleft
 
-	- seven
+	- four
 
-	- bsm
+	- _vabove
 
-	- _twodotstah
+	- uni0644Final.rlig
 
-	- comma
+	- uni00A0
 
-	- uni06BA.init
+	- _uniFBB3.001
 
-	- uni06BD.medi 
+	- uniFC5C.fina 
 
 	- And 49 more.
 
@@ -207,25 +207,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- three
+	- uniFEA4_uniFBBD
 
-	- uniFDFD.01
+	- dotamiddlear
 
-	- uni06BA.medi
+	- _986
 
-	- uni06A1.medi
+	- guillemotleft
 
-	- seven
+	- four
 
-	- bsm
+	- _vabove
 
-	- _twodotstah
+	- uni0644Final.rlig
 
-	- comma
+	- uni00A0
 
-	- uni06BA.init
+	- _uniFBB3.001
 
-	- uni06BD.medi 
+	- uniFC5C.fina 
 
 	- And 49 more.
 
@@ -262,9 +262,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -319,25 +319,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- three
+	- uniFEA4_uniFBBD
 
-	- uniFDFD.01
+	- dotamiddlear
 
-	- uni06BA.medi
+	- _986
 
-	- uni06A1.medi
+	- guillemotleft
 
-	- seven
+	- four
 
-	- bsm
+	- _vabove
 
-	- _twodotstah
+	- uni0644Final.rlig
 
-	- comma
+	- uni00A0
 
-	- uni06BA.init
+	- _uniFBB3.001
 
-	- uni06BD.medi 
+	- uniFC5C.fina 
 
 	- And 49 more.
 
@@ -438,9 +438,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -502,25 +502,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- three
+	- uniFEA4_uniFBBD
 
-	- uniFDFD.01
+	- dotamiddlear
 
-	- uni06BA.medi
+	- _986
 
-	- uni06A1.medi
+	- guillemotleft
 
-	- seven
+	- four
 
-	- bsm
+	- _vabove
 
-	- _twodotstah
+	- uni0644Final.rlig
 
-	- comma
+	- uni00A0
 
-	- uni06BA.init
+	- _uniFBB3.001
 
-	- uni06BD.medi 
+	- uniFC5C.fina 
 
 	- And 49 more.
 
@@ -625,9 +625,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -682,25 +682,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- three
+	- uniFEA4_uniFBBD
 
-	- uniFDFD.01
+	- dotamiddlear
 
-	- uni06BA.medi
+	- _986
 
-	- uni06A1.medi
+	- guillemotleft
 
-	- seven
+	- four
 
-	- bsm
+	- _vabove
 
-	- _twodotstah
+	- uni0644Final.rlig
 
-	- comma
+	- uni00A0
 
-	- uni06BA.init
+	- _uniFBB3.001
 
-	- uni06BD.medi 
+	- uniFC5C.fina 
 
 	- And 49 more.
 

@@ -46,21 +46,21 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B
+	- uni065F
 
-	- uni065F 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B
+	- uni065F
 
-	- uni065F 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -168,25 +168,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seven
+	- four
 
-	- uniFBBB.002
+	- uni06BA.medi
+
+	- exclam
+
+	- _874
+
+	- uniFBB6.001
+
+	- seven
 
 	- _531.001
 
-	- _uniFBB3.001
+	- space
 
-	- uni06BD.init
+	- _786
 
-	- uniFBBB.001
-
-	- _1518
-
-	- uniFBB5.001
-
-	- eight
-
-	- uniFBBE.001 
+	- _540 
 
 	- And 49 more.
 
@@ -201,25 +201,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seven
+	- four
 
-	- uniFBBB.002
+	- uni06BA.medi
+
+	- exclam
+
+	- _874
+
+	- uniFBB6.001
+
+	- seven
 
 	- _531.001
 
-	- _uniFBB3.001
+	- space
 
-	- uni06BD.init
+	- _786
 
-	- uniFBBB.001
-
-	- _1518
-
-	- uniFBB5.001
-
-	- eight
-
-	- uniFBBE.001 
+	- _540 
 
 	- And 49 more.
 
@@ -251,11 +251,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B
+	- uni065F
 
-	- uni065F 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -275,16 +275,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0608
-	* uni0613
-	* uni077A.init
-	* uni06E5
-	* uni077B.init
+	* uni08E9
 	* uni06D6
-	* uni06D7
 	* uni08E7
-	* uniFDFD
-	* uni08E8 and 6 more.
+	* uni0616
+	* uni077B.init
+	* uni077A.init
+	* uni077A.medi
+	* uni08E8
+	* uniFDF4
+	* uni0608 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -326,25 +326,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seven
+	- four
 
-	- uniFBBB.002
+	- uni06BA.medi
+
+	- exclam
+
+	- _874
+
+	- uniFBB6.001
+
+	- seven
 
 	- _531.001
 
-	- _uniFBB3.001
+	- space
 
-	- uni06BD.init
+	- _786
 
-	- uniFBBB.001
-
-	- _1518
-
-	- uniFBB5.001
-
-	- eight
-
-	- uniFBBE.001 
+	- _540 
 
 	- And 49 more.
 
@@ -440,11 +440,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B
+	- uni065F
 
-	- uni065F 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -464,14 +464,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0608
-	* uni077A.init
-	* uni06E5
 	* uni077B.init
-	* uniFDFD
+	* uni077A.init
+	* uni077A.medi
 	* uni08E8
-	* uni08F3
-	* uni077A.medi and uni077B.medi
+	* uni0608
+	* uni06E5
+	* uni077B.medi
+	* uni08F3 and uniFDFD
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -518,25 +518,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seven
+	- four
 
-	- uniFBBB.002
+	- uni06BA.medi
+
+	- exclam
+
+	- _874
+
+	- uniFBB6.001
+
+	- seven
 
 	- _531.001
 
-	- _uniFBB3.001
+	- space
 
-	- uni06BD.init
+	- _786
 
-	- uniFBBB.001
-
-	- _1518
-
-	- uniFBB5.001
-
-	- eight
-
-	- uniFBBE.001 
+	- _540 
 
 	- And 49 more.
 
@@ -636,11 +636,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B
+	- uni065F
 
-	- uni065F 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -660,14 +660,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0608
-	* uni077A.init
-	* uni06E5
 	* uni077B.init
-	* uniFDFD
+	* uni077A.init
+	* uni077A.medi
 	* uni08E8
-	* uni08F3
-	* uni077A.medi and uni077B.medi
+	* uni0608
+	* uni06E5
+	* uni077B.medi
+	* uni08F3 and uniFDFD
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -707,25 +707,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seven
+	- four
 
-	- uniFBBB.002
+	- uni06BA.medi
+
+	- exclam
+
+	- _874
+
+	- uniFBB6.001
+
+	- seven
 
 	- _531.001
 
-	- _uniFBB3.001
+	- space
 
-	- uni06BD.init
+	- _786
 
-	- uniFBBB.001
-
-	- _1518
-
-	- uniFBB5.001
-
-	- eight
-
-	- uniFBBE.001 
+	- _540 
 
 	- And 49 more.
 

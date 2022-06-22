@@ -38,25 +38,25 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -79,25 +79,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -137,25 +137,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -164,16 +164,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0662
-	* uni0679
-	* uniFDFC
-	* uniFC7C
-	* uni0693
-	* uni06AB.medi
-	* uniFDF0
-	* sad_hehar.init
-	* uni0676.fina
-	* uni069F.init and 439 more.
+	* uni0762.fina
+	* uniFCE8
+	* uni075D.medi
+	* uniFBDC
+	* uniFCBE
+	* uni06A6
+	* uniFD94
+	* uniFD82
+	* uni06A1.medi
+	* uniFEBE and 439 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -197,25 +197,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -358,25 +358,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -385,16 +385,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0662
-	* uniFDFC
-	* uniFC7C
-	* uni0693
-	* uni06AB.medi
-	* uniFDF0
-	* sad_hehar.init
-	* uni0676.fina
-	* uni069F.init
-	* uni08AF.fina and 412 more.
+	* uniFCE8
+	* uni075D.medi
+	* uniFBDC
+	* uniFCBE
+	* uniFD94
+	* uniFB7D
+	* uniFD82
+	* uni06A1.medi
+	* uniFEBE
+	* uni069F.fina and 412 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -411,25 +411,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -552,25 +552,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -579,16 +579,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0662
-	* uni0679
-	* uniFDFC
-	* uniFC7C
-	* uni0693
-	* uni06AB.medi
-	* uniFDF0
-	* sad_hehar.init
-	* uni0676.fina
-	* uni069F.init and 412 more.
+	* uniFCE8
+	* uni075D.medi
+	* uniFBDC
+	* uniFCBE
+	* uniFD94
+	* uniFB7D
+	* uniFD82
+	* uni06A1.medi
+	* uniFEBE
+	* uni069F.fina and 412 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -612,25 +612,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -747,25 +747,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -774,16 +774,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni2E41
+	* uni0608
 	* uniFDF0
 	* uniFDF1
-	* uni2E41
-	* uniFBB1
-	* uni06DE
-	* uni08AD
-	* uniFBAF
-	* uni204F
+	* uni065D
 	* uni08E8
-	* uni0758.fina and 6 more.
+	* uniFBB1
+	* uni0758
+	* uniFBAF
+	* uni077A.fina and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -807,25 +807,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -938,25 +938,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -965,16 +965,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFDF0
+	* uni06DB
 	* uniFD94
-	* uniFCD7
-	* uniFDF1
 	* uniFC52
+	* uni077B.init
 	* uni2E41
-	* uniFBB1
-	* uniFCD8
-	* uni06BE
-	* uniFBAC and 31 more.
+	* uni0608
+	* uniFDF0
+	* uniFDF1
+	* uni065D
+	* uni08A7 and 31 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -998,25 +998,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -1137,25 +1137,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -1164,16 +1164,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFDFC
-	* uniFC7C
-	* uni06AB.medi
-	* uniFDF0
-	* sad_hehar.init
-	* uni0676.fina
-	* uni069F.init
-	* uniFB6F
+	* uniFCE8
+	* uni075D.medi
+	* uniFBDC
+	* uniFD94
+	* uni06A1.medi
+	* uni069F.fina
+	* uniFDB2
 	* uni08AA.fina
-	* uni069F and 251 more.
+	* uniFCF6
+	* uni06A0.fina and 251 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1197,25 +1197,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -1336,25 +1336,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -1363,16 +1363,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFDFC
-	* uniFDF0
-	* uniFB6F
 	* uniFD94
-	* uniFE73
-	* uniFBF0
-	* uni0760.fina
+	* uni069F.fina
 	* uni060F
-	* uni06C4
-	* uni06AB.fina and 107 more.
+	* uniFC52
+	* uni077B.init
+	* uni0677.fina
+	* uniFD12
+	* uniFDFC
+	* uniFEF9.isol
+	* uniFBF2 and 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1389,25 +1389,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -1508,25 +1508,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -1535,15 +1535,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFDFC
-	* uniFC7C
-	* uni06AB.medi
-	* uniFDF0
-	* sad_hehar.init
-	* uni0676.fina
-	* uni069F.init
-	* uni08AF.fina
-	* uniFB6F
+	* uniFCE8
+	* uni075D.medi
+	* uniFBDC
+	* uniFCBE
+	* uniFD94
+	* uni06A1.medi
+	* uniFEBE
+	* uni069F.fina
+	* uniFDB2
 	* uni08AA.fina and 326 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1568,25 +1568,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -1711,25 +1711,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -1738,16 +1738,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni2E41
+	* uni0608
 	* uniFDF0
 	* uniFDF1
-	* uni2E41
-	* uniFBB1
-	* uni204F
-	* uni08E8
-	* uni0608
 	* uni065D
-	* uniFDFD
-	* uni077A.fina and uni077B.fina
+	* uni08E8
+	* uniFBB1
+	* uni077A.fina
+	* uni204F
+	* uni077B.fina and uniFDFD
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1769,25 +1769,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 
@@ -1914,25 +1914,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni064C
+	- uni06E4
 
-	- uni065A
+	- uni0654
 
-	- uni08F0
-
-	- uni0616
+	- twodotsverticalabovear
 
 	- uni08EA
 
-	- twodotshorizontalbelowar
+	- uni08DC
 
-	- threedotsdownabovear
+	- uni08D3
 
-	- uni06DF
+	- uni0670
 
-	- uni08D7
+	- uni08F0
 
-	- fourdotsbelowar 
+	- uni0614
+
+	- uni08E8 
 
 	- And 94 more.
 
@@ -1955,25 +1955,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- seen_zainar
+	- peh_zainar.fina
 
-	- khah_yehHamzaabovear
+	- seenThrdotsblwthrdotsar.medi
 
-	- sad_hehar.init
+	- theh_yehHamzaabovear
 
-	- noon_yehHamzaabovear
+	- peh_yehHamzaabovear
 
-	- dad_zainar
+	- sad_yehHamzaabovear
 
-	- threedotsdownbelowar.restricted
+	- dad_hehar.init
 
-	- lam_noon_meemar
+	- alefMaksura_zainar.fina
 
 	- uniFEF9.isol
 
-	- keheh_yehar
+	- lam_beh_meemar
 
-	- dad_hehar.init 
+	- sheen_zainar 
 
 	- And 63 more.
 

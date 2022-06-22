@@ -121,11 +121,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina
-	* uni06BC.fina and uni067C.init
+	* uni067C.init and uni06BC.fina
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -245,11 +245,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina
-	* uni06BC.fina and uni067C.init
+	* uni067C.init and uni06BC.fina
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -362,11 +362,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina
-	* uni06BC.fina and uni067C.init
+	* uni067C.init and uni06BC.fina
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -505,11 +505,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _hehgoalcomma
-
 	- Fourcenterar
 
-	- Fourbelowar 
+	- Fourbelowar
+
+	- _hehgoalcomma 
 
 	- And uni0615.alt
  [code: unreachable-glyphs]
@@ -598,11 +598,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _hehgoalcomma
-
 	- Fourcenterar
 
-	- Fourbelowar 
+	- Fourbelowar
+
+	- _hehgoalcomma 
 
 	- And uni0615.alt
  [code: unreachable-glyphs]
@@ -675,11 +675,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina
-	* uni06BC.fina and uni067C.init
+	* uni067C.init and uni06BC.fina
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -785,8 +785,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina and uni067C.init
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -845,11 +845,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni067C.fina
-	* uni067C.medi
 	* uni06BC.medi
+	* uni067C.medi
 	* uni067C
 	* uni0675.fina
-	* uni06BC.fina and uni067C.init
+	* uni067C.init and uni06BC.fina
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -976,11 +976,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _hehgoalcomma
-
 	- Fourcenterar
 
-	- Fourbelowar 
+	- Fourbelowar
+
+	- _hehgoalcomma 
 
 	- And uni0615.alt
  [code: unreachable-glyphs]
