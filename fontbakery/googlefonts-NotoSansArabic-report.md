@@ -5,7 +5,7 @@ Fontbakery version: 0.8.9
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf', 'fonts/NotoSansArabic/googlefonts/ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf'] [code: single-directory]
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansArabic/googlefonts/ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf'] [code: single-directory]
 </div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
 
 
@@ -14,17 +14,10 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-MM[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** The file 'NotoSansArabic-MM[wght].ttf' must be renamed to 'NotoSansArabic[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -32,130 +25,31 @@ Fontbakery version: 0.8.9
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
-
-	- And 94 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 283. [code: invalid-default-instance-subfamily-nameid:283]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init, seenThreedotsbelowthreedotsar.medi and yehHamzaabove_yehHamzaabovear.fina [code: legacy-long-names]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- peh_zainar.fina
-
-	- seenThrdotsblwthrdotsar.medi
-
-	- theh_yehHamzaabovear
-
-	- peh_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- dad_hehar.init
-
-	- alefMaksura_zainar.fina
-
-	- uniFEF9.isol
-
-	- lam_beh_meemar
-
-	- sheen_zainar 
-
-	- And 63 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni06E4
-
-	- uni0654
-
-	- twodotsverticalabovear
-
-	- uni08EA
-
-	- uni08DC
-
-	- uni08D3
-
-	- uni0670
-
-	- uni08F0
-
-	- uni0614
-
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -164,16 +58,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0762.fina
-	* uniFCE8
-	* uni075D.medi
-	* uniFBDC
-	* uniFCBE
-	* uni06A6
-	* uniFD94
-	* uniFD82
-	* uni06A1.medi
-	* uniFEBE and 439 more.
+	* uniFD8E
+	* uniFD78
+	* uniFEF8
+	* uni06BE
+	* dad_hehar.medi
+	* uniFCC5
+	* uni08AB.fina
+	* uniFEBA
+	* uniFD7B
+	* uni08A6.fina and 439 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -197,25 +91,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -338,13 +232,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -352,31 +243,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -385,16 +276,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCE8
-	* uni075D.medi
-	* uniFBDC
-	* uniFCBE
-	* uniFD94
-	* uniFB7D
-	* uniFD82
-	* uni06A1.medi
-	* uniFEBE
-	* uni069F.fina and 412 more.
+	* uniFD8E
+	* uniFD78
+	* uniFEF8
+	* uni06BE
+	* dad_hehar.medi
+	* uni0778
+	* uniFCC5
+	* uni08AB.fina
+	* uni063C.fina
+	* uni0669 and 412 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -411,25 +302,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -532,13 +423,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<614.0,383.0>--<482.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,696.0>--<280.0,697.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -546,31 +434,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -579,16 +467,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCE8
-	* uni075D.medi
-	* uniFBDC
-	* uniFCBE
-	* uniFD94
-	* uniFB7D
-	* uniFD82
-	* uni06A1.medi
-	* uniFEBE
-	* uni069F.fina and 412 more.
+	* uniFD8E
+	* uniFD78
+	* uniFEF8
+	* uni06BE
+	* dad_hehar.medi
+	* uniFCC5
+	* uni08AB.fina
+	* uni063C.fina
+	* uni0669
+	* uniFEBA and 412 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -612,25 +500,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -727,13 +615,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0659 (U+0659): L<<30.0,696.0>--<282.0,697.0>> 
 
 	* And uniFE73 (U+FE73): L<<356.0,-79.0>--<355.0,-232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -741,31 +626,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -774,16 +659,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2E41
-	* uni0608
 	* uniFDF0
+	* uni2E41
 	* uniFDF1
-	* uni065D
-	* uni08E8
+	* uni0758.fina
+	* uni077A.fina
+	* uni077B.fina
 	* uniFBB1
+	* uni08AD
 	* uni0758
-	* uniFBAF
-	* uni077A.fina and 6 more.
+	* uni0608 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -807,25 +692,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -918,13 +803,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni06E9 (U+06E9): L<<391.0,174.0>--<390.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<423.0,404.0>--<424.0,169.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -932,31 +814,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -965,16 +847,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06DB
-	* uniFD94
-	* uniFC52
-	* uni077B.init
-	* uni2E41
-	* uni0608
+	* uni06BE
 	* uniFDF0
+	* uni2E41
+	* uni06DB
 	* uniFDF1
-	* uni065D
-	* uni08A7 and 31 more.
+	* uniFC54
+	* uni0758.fina
+	* uni077A.fina
+	* uniFBAA
+	* uni077B.fina and 31 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -998,25 +880,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1117,13 +999,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0659 (U+0659): L<<30.0,668.0>--<254.0,669.0>> 
 
 	* And uni06E9 (U+06E9): L<<402.0,186.0>--<401.0,423.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1131,31 +1010,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -1164,16 +1043,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCE8
-	* uni075D.medi
-	* uniFBDC
-	* uniFD94
-	* uni06A1.medi
-	* uni069F.fina
-	* uniFDB2
-	* uni08AA.fina
-	* uniFCF6
-	* uni06A0.fina and 251 more.
+	* uniFD78
+	* uniFEF8
+	* uni06BE
+	* dad_hehar.medi
+	* uni08AB.fina
+	* uniFD7B
+	* uni08A6.fina
+	* uni08B3.fina
+	* uniFDF0
+	* uniFD7C and 251 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1197,25 +1076,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1316,13 +1195,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<12.0,287.0>--<191.0,286.0>> 
 
 	* And uni066D (U+066D): L<<305.0,286.0>--<486.0,287.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1330,31 +1206,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -1363,16 +1239,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD94
-	* uni069F.fina
-	* uni060F
-	* uniFC52
-	* uni077B.init
-	* uni0677.fina
-	* uniFD12
-	* uniFDFC
-	* uniFEF9.isol
-	* uniFBF2 and 107 more.
+	* uniFEF8
+	* uni06BE
+	* uni08A6.fina
+	* uniFDF0
+	* uniFD7C
+	* uniFBE3
+	* uniFBF3
+	* lam_alefWavyhamzabelowar.fina
+	* lam_alefWaslaar.fina
+	* uni060F and 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1389,25 +1265,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1488,13 +1364,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni0607 (U+0607): L<<602.0,383.0>--<470.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,681.0>--<254.0,682.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1502,31 +1375,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -1535,16 +1408,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCE8
-	* uni075D.medi
-	* uniFBDC
-	* uniFCBE
-	* uniFD94
-	* uni06A1.medi
-	* uniFEBE
-	* uni069F.fina
-	* uniFDB2
-	* uni08AA.fina and 326 more.
+	* uniFD8E
+	* uniFD78
+	* uniFEF8
+	* uni06BE
+	* dad_hehar.medi
+	* uni08AB.fina
+	* uni063C.fina
+	* uniFEBA
+	* uniFD7B
+	* uni08A6.fina and 326 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1568,25 +1441,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1691,13 +1564,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<609.0,383.0>--<477.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,690.0>--<270.0,691.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1705,31 +1575,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -1738,16 +1608,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2E41
-	* uni0608
 	* uniFDF0
+	* uni2E41
 	* uniFDF1
-	* uni065D
-	* uni08E8
-	* uniFBB1
 	* uni077A.fina
-	* uni204F
-	* uni077B.fina and uniFDFD
+	* uni077B.fina
+	* uniFBB1
+	* uni0608
+	* uniFDFD
+	* uni08E8
+	* uni065D and uni204F
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1769,25 +1639,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1890,17 +1760,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-MM[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** The file 'NotoSansArabic-MM[wdth,wght].ttf' must be renamed to 'NotoSansArabic[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1908,31 +1775,31 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/slim-variable-ttf/NotoSansArabic-MM[wght].ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Black.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Bold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-ExtraLight.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Light.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Medium.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Regular.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-SemiBold.ttf', 'fonts/NotoSansArabic/googlefonts/ttf/NotoSansArabic-Thin.ttf', 'fonts/NotoSansArabic/googlefonts/variable-ttf/NotoSansArabic-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni06E4
+	- uni08F3
 
-	- uni0654
+	- uni08E1
 
-	- twodotsverticalabovear
+	- uni064C
 
-	- uni08EA
+	- dotabovear
 
-	- uni08DC
+	- uni06E1
 
-	- uni08D3
+	- uni08FB
 
-	- uni0670
+	- uni08EE
 
-	- uni08F0
+	- fourdotsbelowar
 
-	- uni0614
+	- uni06EB
 
-	- uni08E8 
+	- twodotsverticalabovear 
 
 	- And 94 more.
 
@@ -1955,25 +1822,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- peh_zainar.fina
+	- seen_zainar
 
-	- seenThrdotsblwthrdotsar.medi
+	- dad_hehar.medi
 
-	- theh_yehHamzaabovear
+	- teh_yehHamzaabovear
 
-	- peh_yehHamzaabovear
+	- lam_yeh_meemar
 
-	- sad_yehHamzaabovear
+	- uniFDFD.001
 
-	- dad_hehar.init
+	- sad_hehar.medi
 
-	- alefMaksura_zainar.fina
+	- lam_yehHamzaabovear
 
-	- uniFEF9.isol
+	- alefMaksura_meemar
 
-	- lam_beh_meemar
+	- keheh_yehar
 
-	- sheen_zainar 
+	- theh_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1998,7 +1865,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 51 | 116 | 1242 | 78 | 948 | 0 |
+| 10 | 35 | 111 | 1130 | 62 | 867 | 0 |
 | 0% | 2% | 5% | 51% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
