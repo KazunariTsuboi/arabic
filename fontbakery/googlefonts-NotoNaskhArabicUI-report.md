@@ -33,9 +33,9 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -90,25 +90,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFDFD.01
+	- _782
+
+	- uni06A1.medi
 
 	- uni06BD.init
 
-	- uniFBBB.001
+	- _786
 
-	- _531.001
-
-	- uni0644Final.rlig
-
-	- uni06BA.init
-
-	- two
+	- uniFBB6.001
 
 	- _539
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- one
 
-	- exclam 
+	- threedotsdowncenterar
+
+	- colon
+
+	- uniFBBE.001 
 
 	- And 49 more.
 
@@ -206,9 +206,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -270,25 +270,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFDFD.01
+	- _782
+
+	- uni06A1.medi
 
 	- uni06BD.init
 
-	- uniFBBB.001
+	- _786
 
-	- _531.001
-
-	- uni0644Final.rlig
-
-	- uni06BA.init
-
-	- two
+	- uniFBB6.001
 
 	- _539
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- one
 
-	- exclam 
+	- threedotsdowncenterar
+
+	- colon
+
+	- uniFBBE.001 
 
 	- And 49 more.
 
@@ -390,9 +390,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -447,25 +447,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFDFD.01
+	- _782
+
+	- uni06A1.medi
 
 	- uni06BD.init
 
-	- uniFBBB.001
+	- _786
 
-	- _531.001
-
-	- uni0644Final.rlig
-
-	- uni06BA.init
-
-	- two
+	- uniFBB6.001
 
 	- _539
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- one
 
-	- exclam 
+	- threedotsdowncenterar
+
+	- colon
+
+	- uniFBBE.001 
 
 	- And 49 more.
 
@@ -553,9 +553,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -614,25 +614,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFDFD.01
+	- _782
+
+	- uni06A1.medi
 
 	- uni06BD.init
 
-	- uniFBBB.001
+	- _786
 
-	- _531.001
-
-	- uni0644Final.rlig
-
-	- uni06BA.init
-
-	- two
+	- uniFBB6.001
 
 	- _539
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- one
 
-	- exclam 
+	- threedotsdowncenterar
+
+	- colon
+
+	- uniFBBE.001 
 
 	- And 49 more.
 

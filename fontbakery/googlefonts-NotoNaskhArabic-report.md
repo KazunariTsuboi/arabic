@@ -27,16 +27,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0613
-	* uni077B.medi
-	* uni0616
-	* uni077B.init
-	* uni077A.medi
-	* uniFDFD
-	* uni077A.init
-	* uni08E7
 	* uni08E8
-	* uni06E5 and 6 more.
+	* uni08E7
+	* uni077A.init
+	* uni077B.init
+	* uni0613
+	* uni06E5
+	* uni077B.medi
+	* uni06D6
+	* uni077A.medi
+	* uni08F3 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -78,25 +78,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nine
-
-	- uniFEC4_uniFBB4
-
-	- uni06A1.medi
-
-	- uniFEB3_uniFBB6_uniFBB7
-
-	- threedotsdowncenterar
-
-	- uni06B6.isol
-
-	- two
-
-	- _uniFBB3.001
+	- uni00A0
 
 	- alrahem
 
-	- uniFBBB.002 
+	- threedotsdowncenterar
+
+	- uniFBBE.001
+
+	- uniFBBB.002
+
+	- uni06B6.isol
+
+	- comma
+
+	- five
+
+	- guillemotleft
+
+	- uni06DD.001 
 
 	- And 49 more.
 
@@ -188,14 +188,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni077B.medi
-	* uni077B.init
-	* uni077A.medi
-	* uniFDFD
-	* uni077A.init
 	* uni08E8
+	* uni077A.init
+	* uni077B.init
 	* uni06E5
-	* uni0608 and uni08F3
+	* uni077B.medi
+	* uni077A.medi
+	* uni08F3
+	* uniFDFD and uni0608
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -242,25 +242,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nine
-
-	- uniFEC4_uniFBB4
-
-	- uni06A1.medi
-
-	- uniFEB3_uniFBB6_uniFBB7
-
-	- threedotsdowncenterar
-
-	- uni06B6.isol
-
-	- two
-
-	- _uniFBB3.001
+	- uni00A0
 
 	- alrahem
 
-	- uniFBBB.002 
+	- threedotsdowncenterar
+
+	- uniFBBE.001
+
+	- uniFBBB.002
+
+	- uni06B6.isol
+
+	- comma
+
+	- five
+
+	- guillemotleft
+
+	- uni06DD.001 
 
 	- And 49 more.
 
@@ -356,14 +356,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni077B.medi
-	* uni077B.init
-	* uni077A.medi
-	* uniFDFD
-	* uni077A.init
 	* uni08E8
+	* uni077A.init
+	* uni077B.init
 	* uni06E5
-	* uni0608 and uni08F3
+	* uni077B.medi
+	* uni077A.medi
+	* uni08F3
+	* uniFDFD and uni0608
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -403,25 +403,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nine
-
-	- uniFEC4_uniFBB4
-
-	- uni06A1.medi
-
-	- uniFEB3_uniFBB6_uniFBB7
-
-	- threedotsdowncenterar
-
-	- uni06B6.isol
-
-	- two
-
-	- _uniFBB3.001
+	- uni00A0
 
 	- alrahem
 
-	- uniFBBB.002 
+	- threedotsdowncenterar
+
+	- uniFBBE.001
+
+	- uniFBBB.002
+
+	- uni06B6.isol
+
+	- comma
+
+	- five
+
+	- guillemotleft
+
+	- uni06DD.001 
 
 	- And 49 more.
 
@@ -542,25 +542,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nine
-
-	- uniFEC4_uniFBB4
-
-	- uni06A1.medi
-
-	- uniFEB3_uniFBB6_uniFBB7
-
-	- threedotsdowncenterar
-
-	- uni06B6.isol
-
-	- two
-
-	- _uniFBB3.001
+	- uni00A0
 
 	- alrahem
 
-	- uniFBBB.002 
+	- threedotsdowncenterar
+
+	- uniFBBE.001
+
+	- uniFBBB.002
+
+	- uni06B6.isol
+
+	- comma
+
+	- five
+
+	- guillemotleft
+
+	- uni06DD.001 
 
 	- And 49 more.
 

@@ -29,12 +29,12 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni06BC.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init
+	* uni06BC.fina and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -51,11 +51,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -150,12 +150,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni06BC.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init
+	* uni06BC.fina and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -165,11 +165,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -264,12 +264,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni06BC.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init
+	* uni06BC.fina and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -286,11 +286,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -405,11 +405,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- Fourcenterar
+
 	- uni0615.alt
 
-	- Fourbelowar
-
-	- Fourcenterar 
+	- Fourbelowar 
 
 	- And _hehgoalcomma
  [code: unreachable-glyphs]
@@ -495,11 +495,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- Fourcenterar
+
 	- uni0615.alt
 
-	- Fourbelowar
-
-	- Fourcenterar 
+	- Fourbelowar 
 
 	- And _hehgoalcomma
  [code: unreachable-glyphs]
@@ -568,12 +568,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni06BC.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init
+	* uni06BC.fina and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -590,11 +590,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -675,11 +675,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -689,11 +689,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -732,12 +732,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni067C.medi
 	* uni067C.fina
-	* uni06BC.fina
-	* uni067C.init
 	* uni0675.fina
-	* uni067C
-	* uni06BC.medi and uni067C.medi
+	* uni06BC.medi
+	* uni067C.init
+	* uni06BC.fina and uni067C
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -754,11 +754,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -861,11 +861,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- Fourcenterar
+
 	- uni0615.alt
 
-	- Fourbelowar
-
-	- Fourcenterar 
+	- Fourbelowar 
 
 	- And _hehgoalcomma
  [code: unreachable-glyphs]
@@ -939,11 +939,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni0615.alt
+	- Fourcenterar
 
-	- Fourbelowar 
+	- uni0615.alt 
 
-	- And Fourcenterar
+	- And Fourbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
